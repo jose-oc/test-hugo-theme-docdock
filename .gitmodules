@@ -1,0 +1,3 @@
+[submodule "themes/docdock-multilanguage"]
+	path = themes/docdock-multilanguage
+	url = git@github.com:jose-oc/hugo-theme-docdock.git
