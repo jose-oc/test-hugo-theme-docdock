@@ -38,3 +38,34 @@ weight = 20
 name = "<i class='fa fa-bullhorn'></i> Credits"
 url = "/credits"
 weight = 30
+
+
+[Languages]
+[Languages.en]
+title = "Docdock test - En"
+weight = 1
+languageName = "English"
+
+[Languages.es]
+title = "Docdock test - Es"
+weight = 10
+languageName = "Español"
+
+
+[[Languages.es.menu.shortcuts]]
+pre = "<h3>Más</h3>"
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/jose-oc/hugo-theme-docdock"
+weight = 10
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Documentación sobre Hugo"
+identifier = "hugodocs"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> Créditos"
+url = "/credits"
+weight = 30
