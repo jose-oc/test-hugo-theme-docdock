@@ -10,7 +10,7 @@ editURL = "https://github.com/jose-oc/test-hugo-theme-docdock/edit/master/"
 showVisitedLinks = true # default is false
 themeStyle = "theme" # overide base css
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
-ordersectionsby = "weight" # ordersectionsby = "title"
+ordersectionsby = "title" # ordersectionsby = "weight"
 disableHomeIcon = false # default is false
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
@@ -25,13 +25,8 @@ home = [ "HTML", "RSS", "JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/vjeantet/hugo-theme-docdock"
+url = "https://github.com/jose-oc/hugo-theme-docdock"
 weight = 10
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Showcases"
-url = "/showcase"
-weight = 11
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-bookmark'></i> Hugo Documentation"
